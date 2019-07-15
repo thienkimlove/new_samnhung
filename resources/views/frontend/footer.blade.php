@@ -1,7 +1,7 @@
 <footer>
     <div class="fixCen">
         <div class="copyright">
-            TIỀN LIỆT VƯƠNG - GIẢM TIỂU ĐÊM - DỊU ÊM TIỀN LIỆT TUYẾN
+            CHỐNG MÃN DỤC NAM - TĂNG CƯỜNG SINH LỰC - DUY TRÌ PHONG ĐỘ
         </div>
     </div>
 </footer>
@@ -32,7 +32,8 @@
                 </a>
             </div>
             <div class="text">
-                Giảm tiểu đêm - Dịu êm tiền liệt tuyến
+                <span>chống mãn dục nam - tăng cường sinh lực</span>
+                <span>duy trì phong độ</span>
             </div>
         </div>
     </div>

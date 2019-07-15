@@ -8,9 +8,9 @@
             Vui lòng gọi điện đến tổng đài tư vấn miễn cước <a href="tel: 18001190">1800 1190</a> để được các Dược sĩ nhiều năm kinh nghiệm tư vấn trực tiếp.
             <br>
             Việc đọc trước những câu hỏi sẽ tiết kiệm thời gian cho bạn. <br>
-            Hoặc gửi câu hỏi cho Thầy thuốc nhân dân, GS.TS Nguyễn Văn Mùi để được chuyên gia trả lời các thắc mắc của bạn <a href="http://www.tienlietvuong.vn/lien-he" target="_blank">TẠI ĐÂY</a><br>
-            Để mua sản phẩm tại hiệu thuốc gần chỗ bạn nhất, vui lòng xem <a href="http://www.tienlietvuong.vn/phan-phoi" target="_blank">TẠI ĐÂY</a>.<br>
-            Để mua hàng online – giao hàng, thu tiền tại nhà, <a href="http://www.tienlietvuong.vn/phan-phoi" target="_blank">ĐẶT HÀNG NGAY TẠI ĐÂY</a>. <br>
+            Hoặc gửi câu hỏi cho Thầy thuốc nhân dân, GS.TS Nguyễn Văn Mùi để được chuyên gia trả lời các thắc mắc của bạn <a href="http://http://www.nhunghuoubaccuc.com/lien-he" target="_blank">TẠI ĐÂY</a><br>
+            Để mua sản phẩm tại hiệu thuốc gần chỗ bạn nhất, vui lòng xem <a href="http://http://www.nhunghuoubaccuc.com/phan-phoi" target="_blank">TẠI ĐÂY</a>.<br>
+            Để mua hàng online – giao hàng, thu tiền tại nhà, <a href="http://http://www.nhunghuoubaccuc.com/phan-phoi" target="_blank">ĐẶT HÀNG NGAY TẠI ĐÂY</a>. <br>
             Ngại gọi điện? Vui lòng để lại số điện thoại, chúng tôi sẽ liên lạc lại cho bạn. <br>
       </div>
     </div>

@@ -62,7 +62,7 @@
                                             Edit
                                         </button>&nbsp;
                                         {!! Form::open(['method' => 'DELETE', 'route' => [$model.'.destroy', $content->id]]) !!}
-                                        <button type="submit" class="btn btn-danger btn-mini">Delete</button>
+                                        <button type="submit" class="btn btn-danger btn-mini">Delete</button><br/><br/>
                                         {!! Form::close() !!}
                                     </td>
 

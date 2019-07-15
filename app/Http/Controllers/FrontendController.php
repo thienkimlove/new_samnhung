@@ -121,7 +121,7 @@ class FrontendController extends Controller
                 $meta_desc = $post->desc;
                 $page = ($post->category->parent_id) ? $post->category->parent->slug : $post->category->slug;
                 if ($post->content_1 && $post->content_2) {
-                    return view('frontend.product', compact('page', 'post', 'title'));
+                    return view('frontend.product', compact('page', 'post', 'meta_title', 'meta_desc'));
                 } else {
                     return view('frontend.post', compact('page', 'post', 'meta_title', 'meta_desc'));
                 }

@@ -33,11 +33,11 @@ class AdminController extends Controller
     {
         $filename = $file->getClientOriginalName();
 
-        if (file_exists(public_path('files/images/'. $filename))) {
+        if (file_exists(public_path('files/'. $filename))) {
             $filename = substr(uniqid(), 0, 4).'_'.$filename;
         }
 
-        Image::make($file->getRealPath())->save(public_path('files/images/'. $filename));
+        Image::make($file->getRealPath())->save(public_path('files/'. $filename));
 
 
         return $filename;

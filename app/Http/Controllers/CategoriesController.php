@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
+use App\Post;
 use Hash;
 use Illuminate\Http\Request;
 use Validator;
@@ -57,6 +59,9 @@ class CategoriesController extends AdminController
         } else {
             unset($data['image']);
         }
+        if (!$data['parent_id']) {
+            $data['parent_id'] = null;
+        }
         $modelClass = $this->init();
         $modelClass::create($data);
         flash()->success('Success created!');
@@ -85,16 +90,27 @@ class CategoriesController extends AdminController
         } else {
             unset($data['image']);
         }
+        if (!$data['parent_id']) {
+            $data['parent_id'] = null;
+        }
         $content->update($data);
         flash()->success('Success edited!');
         return redirect('admin/'.$this->model);
     }
     public function destroy($id)
     {
-        $modelClass = $this->init();
-        $content = $modelClass::find($id);
-        $content->delete();
-        flash()->success('Success Deleted!');
+
+        $count = Category::where('parent_id', $id)->count();
+        if ($count > 0) {
+            flash()->error('Can not delete category which have child categories!');
+        } else {
+            $modelClass = $this->init();
+            $content = $modelClass::find($id);
+            $content->delete();
+            Post::where('category_id', $id)->delete();
+            flash()->success('Success Deleted!');
+        }
+
         return redirect('admin/'.$this->model);
     }
 }

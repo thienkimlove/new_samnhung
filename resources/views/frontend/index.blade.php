@@ -4,7 +4,7 @@
     <div class="box-slider" id="slide_header">
             @foreach (\App\Site::getFrontendBanners()->where('position', 5) as $banner)
                 <a class="thumb" href="{{$banner->link}}" title="Banner" target="_blank">
-                    <img src="{{url('files/images', $banner->image)}}" alt="">
+                    <img src="{{url('files', $banner->image)}}" alt="">
                 </a>
             @endforeach
     </div>
@@ -14,7 +14,7 @@
                 <div class="box-uses cf">
                     <div class="title-panel cf">
                         <div class="title">
-                            <h3 class="global-title">
+                            <h3 class="tab-bg">
                                 <a href="javascript:void(0)" rel="nofollow"
                                    class="tab"
                                    data-content="#tab-index"
@@ -50,8 +50,8 @@
 
                             @foreach ($getIndexTopCategoryPosts as $getIndexTopCategoryPost)
                                 <article class="item">
-                                    <a href="{{url($getIndexTopCategoryPost->slug.'.html')}}" title="{{$getIndexTopCategoryPost->title}}" class="thumbs">
-                                        <img src="{{url('files/images', $getIndexTopCategoryPost->image)}}" width="310" height="230" alt=""/>
+                                    <a href="{{url($getIndexTopCategoryPost->slug.'.html')}}" title="{{$getIndexTopCategoryPost->title}}" class="thumbs" style="background-image: url({{url('files', $getIndexTopCategoryPost->image)}})">
+                                        <img src="{{url('files', $getIndexTopCategoryPost->image)}}" alt="" class="imgFull">
                                     </a>
                                     <h3>
                                         <a href="{{url($getIndexTopCategoryPost->slug.'.html')}}" title="{{$getIndexTopCategoryPost->title}}">
@@ -82,8 +82,8 @@
                         @if ($indexTopCategoryPosts = \App\Site::getIndexCategoryPosts($subTop, 3))
                             @foreach ($indexTopCategoryPosts as $indexTopCategoryPost)
                             <article class="item">
-                            <a href="{{url($indexTopCategoryPost->slug.'.html')}}" title="{{$indexTopCategoryPost->title}}" class="thumbs">
-                                <img src="{{url('files/images', $indexTopCategoryPost->image)}}" width="310" height="230" alt=""/>
+                            <a href="{{url($indexTopCategoryPost->slug.'.html')}}" title="{{$indexTopCategoryPost->title}}" class="thumbs" style="background-image: url({{url('files', $indexTopCategoryPost->image)}})">
+                                <img src="{{url('files', $indexTopCategoryPost->image)}}" width="310" height="230" alt=""/>
                             </a>
                             <h3>
                                 <a href="{{url($indexTopCategoryPost->slug.'.html')}}" title="{{$indexTopCategoryPost->title}}">
@@ -118,7 +118,7 @@
             <div class="col-left left-content">
                 <div class="title-panel cf">
                     <div class="title">
-                        <h3 class="global-title">
+                        <h3 class="tab-bg">
                             <a href="javascript:void(0)"
                                rel="nofollow"
                                class="tab"
@@ -153,8 +153,8 @@
                     <div class="box-news cf">
                         @if ($firstPosts = $getIndexSecondCategoryPosts->shift())
                             <div class="item01">
-                                <a href="{{url($firstPosts->slug.'.html')}}" class="thumbs">
-                                    <img src="{{url('files/images', $firstPosts->image)}}" alt="" width="300" height="177">
+                                <a href="{{url($firstPosts->slug.'.html')}}" class="thumbs" style="background-image: url({{url('files', $firstPosts->image)}})">
+                                    <img src="{{url('files', $firstPosts->image)}}" alt="">
                                 </a>
                                 <h3>
                                     <a href="{{url($firstPosts->slug.'.html')}}">
@@ -171,7 +171,7 @@
                             @foreach ($getIndexSecondCategoryPosts as $getIndexSecondCategoryPost)
                             <div class="item">
                                 <a href="{{url($getIndexSecondCategoryPost->slug.'.html')}}" class="thumbs">
-                                    <img src="{{url('files/images', $getIndexSecondCategoryPost->image)}}" alt="" width="110" height="70">
+                                    <img src="{{url('files', $getIndexSecondCategoryPost->image)}}" alt="" width="110">
                                 </a>
                                 <h3>
                                     <a href="{{url($getIndexSecondCategoryPost->slug.'.html')}}">
@@ -190,8 +190,8 @@
                             <div class="box-news cf">
                                 @if ($firstPosts = $getIndexSecondCategoryPosts->shift())
                                     <div class="item01">
-                                        <a href="{{url($firstPosts->slug.'.html')}}" class="thumbs">
-                                            <img src="{{url('files/images', $firstPosts->image)}}" alt="" width="300" height="177">
+                                        <a href="{{url($firstPosts->slug.'.html')}}" class="thumbs" style="background-image: url({{url('files', $firstPosts->image)}})">
+                                            <img src="{{url('files', $firstPosts->image)}}" alt="" width="300" height="177">
                                         </a>
                                         <h3>
                                             <a href="{{url($firstPosts->slug.'.html')}}">
@@ -229,13 +229,13 @@
 
                     @foreach (\App\Site::getFrontendBanners()->where('position', 1) as $banner)
                         <a href="{{$banner->link}}" title="Banner" target="_blank">
-                            <img src="{{url('files/images', $banner->image)}}" alt="">
+                            <img src="{{url('files', $banner->image)}}" alt="">
                         </a>
                     @endforeach
 
                 </div><!--//box-adv-center-->
                 <div class="block-news">
-                    <h3 class="global-title">
+                    <h3 class="tab-bg">
                         <a href="{{url('chuyen-muc', $thirdCate->slug)}}">{{strtoupper($thirdCate->name)}}</a>
 
                     </h3>
@@ -243,8 +243,8 @@
                     <div class="listNews cf">
                         @foreach ($getIndexThirdCategoryPosts as $getIndexThirdCategoryPost)
                             <div class="item">
-                            <a href="{{url($getIndexThirdCategoryPost->slug.'.html')}}" class="thumb">
-                                <img src="{{url('files/images', $getIndexThirdCategoryPost->image)}}" alt="{{$getIndexThirdCategoryPost->title}}" width="188" height="125" style="width:188px; height: 125px">
+                            <a href="{{url($getIndexThirdCategoryPost->slug.'.html')}}" class="thumbs" style="background-image: url({{url('files', $getIndexThirdCategoryPost->image)}})">
+                                <img src="{{url('files', $getIndexThirdCategoryPost->image)}}" alt="{{$getIndexThirdCategoryPost->title}}">
                             </a>
                             <h3>
                                 <a href="{{url($getIndexThirdCategoryPost->slug.'.html')}}">

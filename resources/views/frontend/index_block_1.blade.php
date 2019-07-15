@@ -22,7 +22,9 @@
                 @if ($firstPost = $posts->shift())
                     <div class="hot-news">
                         <div class="post">
-                            <a href="{{url($firstPost->slug.'.html')}}" class="title"><img src="{{url('files/images', $firstPost->image)}}" alt="" width="301" height="183"></a>
+                            <a href="{{url($firstPost->slug.'.html')}}" class="title" style="background-image: url('{{url('files/images', $firstPost->image)}}')">
+                                <img src="{{url('files/images', $firstPost->image)}}" alt="" width="301" height="183">
+                            </a>
                             <h4><a href="{{url($firstPost->slug.'.html')}}" class="title" title="{{$firstPost->title}}">{{str_limit($firstPost->title, 50)}}</a>
                             </h4>
                             <div class="sumary">{{str_limit($firstPost->desc, 55)}}</div>
@@ -31,7 +33,6 @@
                 @endif
                 <div class="news">
                     @foreach ($posts as $post)
-
                         <div class="post">
                             <img src="{{url('files/images', $post->image)}}"
                                  alt="" width="126" height="90">

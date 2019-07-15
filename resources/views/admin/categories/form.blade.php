@@ -36,7 +36,7 @@
 
                 <div class="form-group">
                     {!! Form::label('Parent', 'Parent') !!}
-                    {!! Form::select('parent_id', \App\Site::getParentCategories(), null, ['class' => 'form-control']) !!}
+                    {!! Form::select('parent_id', array('' => 'Chọn chuyên mục') + \App\Site::getParentCategories(), null, ['class' => 'form-control']) !!}
                 </div>
 
 

@@ -21,7 +21,7 @@
                                 </p>
                                 <div class="answer">Trả lời</div>
                                 <div class="answer-faq">
-                                   {{$question->answer}}
+                                   {!! $question->answer !!}
                                 </div>
                             </div>
                         </article>
@@ -29,7 +29,7 @@
                         <div class="ads">
                             @foreach (\App\Site::getFrontendBanners()->where('position', 2) as $banner)
                                 <a href="{{$banner->link}}" title="Banner" target="_blank">
-                                    <img src="{{url('files/images', $banner->image)}}" alt="" class="imgFull" width="658" height="136">
+                                    <img src="{{url('files', $banner->image)}}" alt="" class="imgFull" width="658" height="136">
                                 </a>
                             @endforeach
                         </div>

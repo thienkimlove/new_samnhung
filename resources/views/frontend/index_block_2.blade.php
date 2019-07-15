@@ -3,7 +3,7 @@
     @if ($posts = \App\Site::getIndexCategoryPosts($category, 3))
         <div class="post">
             @if ($firstPost = $posts->shift())
-                <img src="{{url('files/images', $firstPost->image)}}" alt=""
+                <img src="{{url('files', $firstPost->image)}}" alt=""
                      width="326" height="203">
                 <h4><a href="{{url($firstPost->slug.'.html')}}" class="title"
                        title="{{$firstPost->title}}">{{str_limit($firstPost->title, 50)}}</a>

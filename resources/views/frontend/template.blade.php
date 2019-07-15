@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta content='CSVN' name='generator'/>
     <link href="https://plus.google.com/107515763736347546999" rel="publisher"/>
-    <meta property="og:site_name" content="Tiền Liệt Vương">
-    <meta property="fb:app_id" content="100101143774499"/>
-    <title>{{!empty($meta_title)? $meta_title : 'Tiền liệt vương - Giảm tiểu đêm - Dịu êm tiền liệt tuyến'}}</title>
+    <meta property="og:site_name" content="Nhung hươu Bắc Cực">
+    <meta property="fb:app_id" content="1737360436557028"/>
+    <title>{{!empty($meta_title)? $meta_title : 'Nhung hươu Bắc Cực - Thể lực dồi dào, sinh lý vững mạnh'}}</title>
     <link href="https://plus.google.com/107515763736347546999" rel="publisher"/>
     <link rel="stylesheet" href="{{url('viemgan/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{url('viemgan/css/owl.carousel.css')}}">
     <link rel="stylesheet" href="{{url('viemgan/css/common.css')}}">
 
+    <style>
+        .tn-thumb {
+            background-color: #3e3e3e;
+            background-image: none;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-    <meta name="description" content="{{!empty($meta_desc)? $meta_desc : 'Tiền liệt vương - Giảm tiểu đêm - Dịu êm tiền liệt tuyến'}}"/>
-    <meta name="keyword" content="{{!empty($meta_keywords)? $meta_keywords : 'tiểu đêm, tiểu khó, tiền liệt tuyến, u xơ tiền liệt tuyến, tiểu buốt'}}"/>
+    <meta name="description" content="{{!empty($meta_desc)? $meta_desc : 'Sâm nhung cường lực Tuệ Linh - Thể lực dồi dào, sinh lý vững mạnh'}}"/>
+    <meta name="keyword" content="{{!empty($meta_keywords)? $meta_keywords : 'Sâm nhung cường lực Tuệ Linh - Thể lực dồi dào, sinh lý vững mạnh'}}"/>
     <script type="text/javascript">
         (function () {
             var _eclickq = window._eclickq || (window._eclickq = []);
@@ -54,31 +64,31 @@
 </head>
 <body>
 <script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '100101143774499',
-            xfbml      : true,
-            version    : 'v2.8'
-        });
-        FB.AppEvents.logPageView();
-    };
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1737360436557028',
+      xfbml      : true,
+      version    : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
 
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
 </script>
 
 <div id="fb-root"></div>
 <script>
     window.fbAsyncInit = function() {
         FB.init({
-            appId      : '100101143774499',
+            appId      : '1737360436557028',
             xfbml      : true,
-            version    : 'v2.8'
+            version    : 'v2.9'
         });
     };
 
@@ -111,6 +121,8 @@
 
 <script>
     $(function(){
+
+
         $('#box_submit').click(function(){
             var phone = $('#box_phone').val();
             var email = $('#box_email').val();
@@ -129,53 +141,19 @@
 
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-66374353-1', 'auto');
-    ga('send', 'pageview');
+  ga('create', 'UA-100932584-1', 'auto');
+  ga('send', 'pageview');
 
 </script>
 
 
   <!-- Google +-->
-  
-  <!-- Google Code dành cho Thẻ tiếp thị lại -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 867404030;
-var google_custom_params = window.google_tag_params;
-var google_remarketing_only = true;
-/* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/867404030/?guid=ON&amp;script=0"/>
-</div>
-</noscript>
 
-<!-- Google Code for Ph&acirc;n ph&#7889;i Conversion Page -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 867404030;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "G_fZCNDHvXEQ_pHOnQM";
-var google_remarketing_only = false;
-/* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/867404030/?label=G_fZCNDHvXEQ_pHOnQM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
 
 @yield('frontend_script')
 </html>

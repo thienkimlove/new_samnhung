@@ -301,7 +301,7 @@
                     @foreach (\App\Site::getCommentIndex() as $comment)
                         <div class="item">
                         <div class="left">
-                            <img src="{{url('files/images', $comment->image)}}" class="avatar" alt="Tên người" width="114" height="114">
+                            <img src="{{url('files', $comment->image)}}" class="avatar" alt="Tên người" width="114" height="114">
                         </div>
                         <div class="right">
                             <div class="title">{{str_limit($comment->title, 60)}}</div>

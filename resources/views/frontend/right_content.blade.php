@@ -24,7 +24,7 @@
     </div>
     @endif
     <div class="Social">
-        <div class="fb-page" data-href="https://www.facebook.com/tienlietvuong.vn" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/tienlietvuong.vn"><a href="https://www.facebook.com/tienlietvuong.vn">TIỀN LIỆT VƯƠNG</a></blockquote></div></div>
+        <div class="fb-page" data-href="https://www.facebook.com/samnhungcuongluc.vn" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/samnhungcuongluc.vn"><a href="https://www.facebook.com/samnhungcuongluc.vn">Sâm Nhung Cường Lực/a></blockquote></div></div>
     </div>
     <div class="most-readed on-top">
         <h3 class="global-title">
@@ -34,7 +34,7 @@
             @foreach (\App\Site::getRightIndexPosts() as $rightIndexPost)
                 <div class="item cf">
                     <a href="#" class="thumb">
-                        <img src="{{url('files/images', $rightIndexPost->image)}}" alt="hot" width="120" height="84">
+                        <img src="{{url('files', $rightIndexPost->image)}}" alt="hot" width="120" height="84">
                     </a>
                     <h4>
                         <a href="{{url($rightIndexPost->slug.'.html')}}">{{$rightIndexPost->title}}</a>
